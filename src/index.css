@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-parchment: #f4f1ea;
+  --color-ink: #1a1a1a;
+  --color-vermilion: #b22222;
+}
+
+@layer base {
+  body {
+    @apply bg-parchment text-ink;
+    background-image: url("https://www.transparenttextures.com/patterns/rice-paper-2.png");
+  }
+}
